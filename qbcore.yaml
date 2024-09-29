@@ -1,8 +1,42 @@
+#######################################################################################################
+##                                                                                                   ##  
+##    88888888ba,           88    adST0MPba                                                          ##
+##    88       "D,          88   d8"     "8   88                                                     ##
+##    88  > <   8b          88   Y8,          88                                                     ##
+##    88   |    88          88   'Yaaaaas,  KOOOOL    ,YAAAASb,    ..,dPYba,,adPYba,    mYbadnbba,   ##
+##    88  ___   88          88     '"""""8b,  88     a8"     "8a   88P'   "88"    "8a   88P"    "8a  ##
+##    88       .8P          88           '8b  88     8b  O_o  d8   88      88      88   88  -  o d8  ##
+##    88       dJ   88,   ,d88   Y8a     a8P  88     "8a,   ,a8"   88  (•) uu (•)  88   88b, vv a8"  ##
+##    88888888Y"'    "Y88888b     "YEEEEEP"   88      '"YbbdP"'    88              88   88'Mybad"'   ##         
+##     ,aDja,           I8                    8I                    8b  v------v  d8    88           ##
+##     8I  I8            8b        d8b        d8                     Y8,        ,8P     88           ##
+##     "8bdP'             8b      ,8"8,      88                       Y8,      ,8P      8b           ##          
+##    ,d8"8b  88           8b     8P Y8     8P        ,adPPYYba,        Y.    .Y'       89dPPYba,    ##            
+##  .dP'   Yb,8I            8b   d8' '8b   d8'               'Y8         "8aa8"         I8|     "    ##
+##  8P      888'             8a a8'   '8a a8'         ,aadWaYs88          '88'            '"Y8ba,    ##
+##  8b,   ,dP8b               8a8'     '8a8'         88, o_o ,88           88           ..    |8I    ##
+##   'STOmpP  Yb               Hi       'W'          '"8bbdP"Y8            8K.          '"YbbdP"'    ##                                                             
+##   '7MM YM   YB                                                        7YAAAAAAAAASs    ,MP        ##
+##     MM                      nn                        aMM   __     __   MM      VMb.  dP          ##
+##   mmMMmm  .gP"Ya    ,p6"b  mMMmm  ,pW"Wq.  7MMpMMMb.       '7M'   'MF'  MM       `MM.M'           ##
+##     MM   ,M'   Yb  6M'      MM   6W'   'Wb  MM    MM   MM    'VA ,V'    OHDAMN!    MMb            ##
+##     MM   8M""""""  8M       MM   8M     M8  MM    MM   MM      XMX      MM       ,M'`Mb.          ##
+##     MM   YM.    ,  YM.      MM   YA.   ,A9  MM    MM   MM    ,V' VA.    MM      ,P   `MM.         ##
+##     'Mbm ''Mybad'   YMbmd'  'Mbm  'Ybmd9'  JMML  .NMl JMHL .AM.   .MA..JMML.   MM:.  .:MMa.       ##
+##                                                                                                   ##
+##                                  [ txAdmin recipe v0.1.3 ]                                        ##
+##                                                                                                   ##
+##                                 https://discord.stomp.zone/                                       ##
+##                              https://aka.cfx.re/server-commands                                   ##
+##                                   https://docs.qbcore.org                                         ##
+##                                                                                                   ##
+#######################################################################################################
+
 $engine: 3
 $onesync: on
 name: QBCore Framework
 version: 2.2.4
-author: JericoFx & Kakarot & Hamy
+author: JericoFx & Kakarot & Hamy & DJStomp
 description: An advanced FiveM RP framework including jobs, gangs, housing & more!
 
 tasks:
@@ -13,11 +47,11 @@ tasks:
     dest: ./tmp/qbcore
 
   - action: move_path
-    src: ./tmp/qbcore/server.cfg
+    src: ../tmp/server.cfg
     dest: ./server.cfg
 
   - action: move_path
-    src: ./tmp/qbcore/myLogo.png
+    src: ../tmp/myLogo.png
     dest: ./myLogo.png
 
   # Prepare Database
