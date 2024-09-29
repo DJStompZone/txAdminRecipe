@@ -47,11 +47,11 @@ tasks:
     dest: ./tmp/qbcore
 
   - action: move_path
-    src: ./../tmp/server.cfg
+    src: ./tmp/qbcore/server.cfg
     dest: ./server.cfg
 
   - action: move_path
-    src: ./../tmp/myLogo.png
+    src: ./tmp/qbcore/myLogo.png
     dest: ./myLogo.png
 
   # Prepare Database
